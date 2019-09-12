@@ -12,7 +12,7 @@ The purpose of this excercise was to successfully scrape Hackmageddon's website 
 
 * Folder Hackmageddon - contains the spyder to scrape Hackmageddon website. Copy this folder and paste it in your directory. 
     * How to deploy spyder
-         * first you have to download scrapy tool with this command `pip install scrapy`.
+         * first you have to download scrapy tool with this command `pip install scrapy==1.5.0`.
          * Type this command in your command prompt to deploy spyder `scrapy crawl hackmageddon`. Make sure you're                    in the top level of the project's directory, the one contains scrapy.cfg file.
 * Hackmageddon.ipynb - IPython notebook contains code to visualize the scraped data and to conduct a text mining using     natural language processing and unsupervised learning.
 * cluster.html - contains interactive d3.js visualization cluster map 
